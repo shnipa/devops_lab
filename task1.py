@@ -8,4 +8,3 @@ for n in range(len(K)):
     else:
         c[K[n]] = "None"
 print(c)
-
