@@ -13,4 +13,3 @@ setup(
     author_email="Mikita_Shnipau@epam.com",
     description="System"
 )
-
