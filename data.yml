@@ -1,11 +1,11 @@
 apache_vhosts:
 - port: 80 
   servername: www.devops.tld
-  documentroot: /var/www/html
+  documentroot: /www/domain/1/
   serveradmin: root@devops.by
   directorypath: "/usr/local/httpd/htdocs"
 - port: 10200 
   servername: www.devops.tld2
-  documentroot: /www/domain2
+  documentroot: /www/domain/2/
   serveradmin: root@devops.by
   directorypath: "/usr/local/httpd/htdocs2" 
