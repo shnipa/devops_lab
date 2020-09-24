@@ -6,5 +6,5 @@ for n in range(len(K)):
     if n < len(V):
         c[K[n]] = V[n]
     else:
-        c[K[n]] = "None"
+        c[K[n]] = None
 print(c)
