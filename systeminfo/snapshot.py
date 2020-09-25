@@ -68,3 +68,4 @@ while True:
     number += 1
     output()
     time.sleep(args.t)
+main()
