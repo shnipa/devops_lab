@@ -1,5 +1,6 @@
 import requests
 
+
 def get_git_json():
     NAME = "........."
     PASS = "........."
@@ -8,8 +9,10 @@ def get_git_json():
     key = request.json()
     return key
 
+
 def get_array_object(i):
     return {"title": i["title"], "num": i["number"], "link": i["html_url"]}
+
 
 def get_pulls(state):
     test_res = get_git_json()
@@ -45,4 +48,3 @@ def get_data_all(res, state):
     for i in res:
         arr.append(get_array_object(i))
     return arr
-
