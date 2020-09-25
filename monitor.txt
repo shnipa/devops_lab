@@ -1,3 +1,0 @@
-snapshot 1 timestamp ('2020-09-25 11:04:47',) CPU load (33.3,) memory (15.1,) virtual_memory 64.1
-snapshot 1 timestamp ('2020-09-25 11:05:02',) CPU load (100.0,) memory (15.1,) virtual_memory 65.2
-snapshot 2 timestamp ('2020-09-25 11:05:04',) CPU load (30.2,) memory (15.1,) virtual_memory 65.2
