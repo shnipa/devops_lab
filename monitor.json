@@ -1,0 +1,42 @@
+{
+   "snapshot": "1",
+   "timestamp": "2020-09-25 11:05:11",
+   "CPU load": 50.0,
+   "memory": 15.1,
+   "virtual memory": 64.4
+}
+{
+   "snapshot": "1",
+   "timestamp": "2020-09-25 11:05:31",
+   "CPU load": 50.0,
+   "memory": 15.1,
+   "virtual memory": 64.4
+}
+{
+   "snapshot": "1",
+   "timestamp": "2020-09-25 11:05:40",
+   "CPU load": 50.0,
+   "memory": 15.1,
+   "virtual memory": 64.4
+}
+{
+   "snapshot": "2",
+   "timestamp": "2020-09-25 11:05:42",
+   "CPU load": 9.3,
+   "memory": 15.1,
+   "virtual memory": 64.4
+}
+{
+   "snapshot": "1",
+   "timestamp": "2020-09-25 11:07:07",
+   "CPU load": 75.0,
+   "memory": 15.1,
+   "virtual memory": 64.5
+}
+{
+   "snapshot": "2",
+   "timestamp": "2020-09-25 11:07:09",
+   "CPU load": 10.4,
+   "memory": 15.1,
+   "virtual memory": 64.5
+}
