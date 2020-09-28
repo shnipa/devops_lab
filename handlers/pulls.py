@@ -2,8 +2,8 @@ import requests
 
 
 def get_git_json():
-    NAME = "shnipa"
-    PASS = "19081998Sasha"
+    NAME = "****"
+    PASS = "****"
     API = "https://api.github.com/repos/alenaPy/devops_lab/pulls?per_page=100&state=all"
     request = requests.get(API, auth=(NAME, PASS))
     key = request.json()
