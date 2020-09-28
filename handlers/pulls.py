@@ -48,4 +48,3 @@ def get_data_all(res):
     for i in res:
         arr.append(get_array_object(i))
     return arr
-
