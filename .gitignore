@@ -93,5 +93,3 @@ venv.bak/
 
 #pycharm
 .idea/
-
-tests/

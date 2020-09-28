@@ -2,8 +2,8 @@ import requests
 
 
 def get_git_json():
-    NAME = "........."
-    PASS = "........."
+    NAME = "*******"
+    PASS = "*******"
     API = "https://api.github.com/repos/alenaPy/devops_lab/pulls?per_page=100&state=all"
     request = requests.get(API, auth=(NAME, PASS))
     key = request.json()
@@ -15,13 +15,13 @@ def get_array_object(i):
 
 
 def get_pulls(state):
-    test_res = get_git_json()
+    res = get_git_json()
     if state == "open" or state == "closed":
-        return get_data_res(test_res, state)
+        return get_data_res(res, state)
     elif state == "accepted" or state == "needs work":
-        return get_data_label(test_res, state)
+        return get_data_label(res, state)
     else:
-        return get_data_all(test_res, state)
+        return get_data_all(res)
 
 
 def get_data_res(res, state):
@@ -43,8 +43,9 @@ def get_data_label(res, state):
     return arr
 
 
-def get_data_all(res, state):
+def get_data_all(res):
     arr = []
     for i in res:
         arr.append(get_array_object(i))
     return arr
+
