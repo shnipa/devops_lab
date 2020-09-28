@@ -8,10 +8,6 @@ class TestPulls(TestCase):
     def setUp(self):
         """Init"""
 
-    def test_get_git_json(self):
-        """Test git key"""
-        self.assertTrue(pulls.get_git_json())
-
     def test_get_pulls(self):
         """"Test states"""
         result = pulls.get_pulls("accepted")
@@ -25,7 +21,7 @@ class TestPulls(TestCase):
 
     def test_get_data_all(self):
         """Test get all data"""
-        self.assertEqual(pulls.get_data_all(test_shnipov),
+        self.assertEqual(pulls.get_data_all(test_shnipov.json),
                          test_shnipov.result_data_all)
 
     def tearDown(self):
