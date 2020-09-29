@@ -11,7 +11,7 @@ logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s',
                     level=logging.DEBUG, filename=u'log.log')
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-n', dest="name", help="Zip archive name", type=str)
+parser.add_argument('-n', dest="name", help="zip name", type=str)
 args = parser.parse_args()
 
 goal = "__init__.py"
